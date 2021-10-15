@@ -1,0 +1,21 @@
+<!-- <style>
+    body{
+        background-color: aqua;
+    }
+</style> -->
+<!-- <link rel="stylesheet" href="app.css"> -->
+
+<%- include('partials/header') %>
+
+<!-- <h1>You fell in love with :<%= 5+5 %></h1> -->
+<h1>You fell in love with :<%= ThingVariable.toUpperCase() %></h1>
+
+<% if(ThingVariable.toLowerCase() === 'rusty'){ %>
+    <p>Good Choice! Rusty is the best!</p>
+<% }else{ %>
+    <p>Bad Choice!You should have said Rusty!</p>
+<% } %>
+
+<p>P.S. this is the love.ejs file!</p>
+
+<%- include('partials/footer') %>
