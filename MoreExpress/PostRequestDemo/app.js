@@ -16,6 +16,7 @@ app.get('/',(req,res)=>{
 
 app.post('/addfriend',(req,res)=>{
     let newFriend = req.body.NewFriend;
+    // console.log(req);
     friends.push(newFriend);
     res.redirect('/friends');
 });
