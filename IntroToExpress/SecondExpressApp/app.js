@@ -37,7 +37,7 @@ app.get('/speak/:animal',(req,res)=>{
 app.get('/repeat/:greeting/:id',(req,res)=>{
     let greeting = req.params.greeting;
     let id = Number(req.params.id);
-    let result =''; 
+    let result =''; //We can only response back 1 time
     for(let i =0;i<id;i++){
         result = result+` ${greeting}`;
     }

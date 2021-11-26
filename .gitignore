@@ -1,3 +1,25 @@
-APIs/node_modules
-APIs/movie_search_app/node_modules
+APIs/node_modules/
+APIs/movie_search_app/node_modules/
+Associations/node_modules/
+Authentication/AuthDemo/node_modules/
+Database/node_modules/
+IntroToExpress/FirstExpress/node_modules/
+IntroToExpress/SecondExpress/node_modules/
+IntroToNPM/DemoApp/node_modules/
+IntroToNPM/MyShop/node_modules/
+MoreExpress/EJSDemo/node_modules/
+MoreExpress/PostRequestDemo/node_modules/
+PackageJsonDemo/node_modules/
+RESTful Routing/RESTfulBlogApp/node_modules/
 YelpCamp/v1/node_modules/
+YelpCamp/v2/node_modules/
+YelpCamp/v3/node_modules/
+YelpCamp/v4/node_modules/
+YelpCamp/v5/node_modules/
+YelpCamp/v6/node_modules/
+YelpCamp/v7/node_modules/
+YelpCamp/v8/node_modules/
+YelpCamp/v9/node_modules/
+YelpCamp/v10/node_modules/
+YelpCamp/v11/node_modules/
+YelpCamp/v12/node_modules/

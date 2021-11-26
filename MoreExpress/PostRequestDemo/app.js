@@ -15,7 +15,7 @@ app.get('/',(req,res)=>{
 });
 
 app.post('/addfriend',(req,res)=>{
-    let newFriend = req.body.NewFriend;
+    let newFriend = req.body.NewFriend;//To use req.body install body-parser
     // console.log(req);
     friends.push(newFriend);
     res.redirect('/friends');

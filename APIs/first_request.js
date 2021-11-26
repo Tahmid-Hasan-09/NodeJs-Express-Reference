@@ -34,6 +34,7 @@ const request = require('request');
 
 //Go to jsonplaceholder.com for dummy api data
 request('https://jsonplaceholder.typicode.com/users/1',(error,response,body)=>{
+    // eval(require('locus')) = Freeze the execution & can access to variables
     if(!error && response.statusCode == 200){
         const parsedData = JSON.parse(body);
         console.log(`${parsedData.name} lives in ${parsedData.address.city}`);
